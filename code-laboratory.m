@@ -3,14 +3,14 @@ close all;
 clear all;
 
 % parámetros de configuración
-fm = 100000; % Hz
-tm = 1/fm; % segundos
-ls = 200; % largo de la señal
-f_c = 1000; % Hz
-f_s = 5000; % Hz
-t_s = 1/f_s; % segundos
-tau = 0.5*t_s; % segundos
-d = tau/t_s; % ciclo de trabajo
+fm = 100000; 
+tm = 1/fm;
+ls = 200; 
+f_c = 1000; 
+f_s = 5000; 
+t_s = 1/f_s; 
+tau = 0.5*t_s; 
+d = tau/t_s; 
 
 % vectores
 t = (0:ls-1)*tm;
